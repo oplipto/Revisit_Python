@@ -67,16 +67,72 @@ b = 20
 # num = random.randint(1, 100)
 # print(num)
 
-addition = 10 + 50
+# addition = 10 + 50
 
-subtraction = 50 - 10
+# subtraction = 50 - 10
 
-multiplication = 10 * 50
+# multiplication = 10 * 50
 
-divide = 50 / 10
+# divide = 50 / 10
 
-modulus = 50 % 10
+# modulus = 50 % 10
 
-exponents = 10 ** 2
+# exponents = 10 ** 2
 
-print(addition, subtraction, multiplication, divide, modulus, exponents)
+# print(addition, subtraction, multiplication, divide, modulus, exponents)
+
+# lists = ['The Croods', 'Mega Mind', 'The Incredibles', 'Meet the Robinsons', 'Mr Peabody & Sherman']
+# 
+# print(lists[0])
+# print(lists[-1])
+# print(lists[0:4])
+# print(len(lists))
+# print(max(lists))
+# print(min(lists))
+# 
+# lists.append('The Boss Baby')
+# print(lists)
+# 
+# lists.insert(2, 'The Emoji Movie')
+# print(lists)
+# 
+# lists.remove('The Croods')
+# print(lists)
+# 
+# lists.pop(2)
+# print(lists)
+
+# t = 40
+
+# def func():
+#     t = 20
+#     print(t)
+
+# print(t)
+# func()
+
+# class Car:
+#     def __init__(self, model, price):
+#         self.model = model
+#         self.price = price
+
+#     def display(self):
+#         print(f"The model of the car is {self.model} and the price is {self.price}")
+
+# Car1 = Car("2022 Lamborghini Aventador SVJ Convertible", "$573,966")
+
+# print(Car1.model)
+# print(Car1.price)
+# Car1.display()
+
+# def add(a, b):
+#     c = a + b
+#     print(c)
+
+# add(100, 2000)
+
+def greetings(name):
+    print(f"Hello, {name}!")
+
+greetings("John")
+
