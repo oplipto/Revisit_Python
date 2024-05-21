@@ -111,19 +111,19 @@ b = 20
 # print(t)
 # func()
 
-# class Car:
-#     def __init__(self, model, price):
-#         self.model = model
-#         self.price = price
+class Car:
+    def __init__(self, model, price):
+        self.model = model
+        self.price = price
 
-#     def display(self):
-#         print(f"The model of the car is {self.model} and the price is {self.price}")
+    def display(self):
+        print(f"The model of the car is {self.model} and the price is {self.price}")
 
-# Car1 = Car("2022 Lamborghini Aventador SVJ Convertible", "$573,966")
+Car1 = Car("2022 Lamborghini Aventador SVJ Convertible", "$573,966")
 
-# print(Car1.model)
-# print(Car1.price)
-# Car1.display()
+print(Car1.model)
+print(Car1.price)
+Car1.display()
 
 # def add(a, b):
 #     c = a + b
@@ -131,8 +131,8 @@ b = 20
 
 # add(100, 2000)
 
-def greetings(name):
-    print(f"Hello, {name}!")
+# def greetings(name):
+#     print(f"Hello, {name}!")
 
-greetings("John")
+# greetings("John")
 
